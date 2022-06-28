@@ -25,7 +25,7 @@ function myLoop() {
         let wps = word/30
         wordsPerSecond.innerHTML= `${wps} Word per Second\n(wps)\n`
     }
-  }, 10)
+  }, 1000)
 }
 
 
