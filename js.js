@@ -53,7 +53,7 @@ document.getElementById("start").addEventListener("click",()=>{
 
 input.addEventListener("keydown",(e)=>{
     if (e.keyCode === 32){
-        if (input.value == randomWords[0]){
+        if (input.value.toLowerCase() == randomWords[0]){
             del = randomWords.shift()
             countInput.push(del)
             print(randomWords)
@@ -71,4 +71,3 @@ input.addEventListener("keydown",(e)=>{
             }
     }}
 })
-
